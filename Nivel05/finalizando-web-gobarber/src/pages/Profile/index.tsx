@@ -1,4 +1,4 @@
-import React, { useCallback, useRef } from 'react';
+import React, { useCallback, useRef, ChangeEvent } from 'react';
 import { FiMail, FiUser, FiLock, FiCamera, FiArrowLeft } from 'react-icons/fi';
 // FormHandles interface q libera funções do input (setError,getFieldValue,etc)
 import { FormHandles } from '@unform/core';
@@ -25,7 +25,9 @@ import { useAuth } from '../../hooks/auth';
 interface ProfileFormData {
   name: string;
   email: string;
+  old_password: string;
   password: string;
+  password_confirmation: string;
 }
 
 const Profile: React.FC = () => {
@@ -37,7 +39,7 @@ const Profile: React.FC = () => {
   const history = useHistory();
 
   // pegar os dados do user logado
-  const { user } = useAuth();
+  const { user, updateUser } = useAuth();
 
   // recebe dados (data) do form, mesma ideia de função transformada em arrow function
   const handleSubmit = useCallback(
@@ -50,21 +52,57 @@ const Profile: React.FC = () => {
         const schema = Yup.object().shape({
           name: Yup.string().required('Nome obrigatório'),
           email: Yup.string()
-            .required('E-mail obrigatório')
+            .required('Email obrigatório')
             .email('Digite um e-mail válido'),
-          password: Yup.string().min(6, 'No mínimo 6 digitos'),
+          old_password: Yup.string(),
+          password: Yup.string().when('old_password', {
+            is: (val) => !!val.length,
+            then: Yup.string().required('Campo obrigatório'),
+            otherwise: Yup.string(),
+          }),
+          password_confirmation: Yup.string().when('old_password', {
+            is: (val) => !!val.length,
+            then: Yup.string().required('Campo obrigatório'),
+            otherwise: Yup.string(),
+          }),
         });
+
         // dados q recebi do input (nome, email e senha) e retorna todos erros de 1x só (abortEarly)
         await schema.validate(data, { abortEarly: false });
 
-        await api.post('/users', data);
+        const {
+          name,
+          email,
+          old_password,
+          password,
+          password_confirmation,
+        } = data;
 
-        history.push('/');
+        const formData = {
+          // unir 2 obj
+          // esses campos sempre tem que estar preenchidos
+          name,
+          email,
+          ...(old_password // se existir tem q ter completado os 3 campos
+            ? {
+                old_password,
+                password,
+                password_confirmation,
+              }
+            : {}),
+        };
+
+        const response = await api.put('/profile', formData);
+
+        updateUser(response.data);
+
+        history.push('/dashboard');
 
         addToast({
           type: 'success',
-          title: 'Cadastro realizado com sucsso',
-          description: 'Você já pode fazer seu logon no GoBarber',
+          title: 'Perfil atualizado!',
+          description:
+            'Suas informações do perfil foram atualizadas com sucesso!',
         });
       } catch (err) {
         // console.log(err);
@@ -77,12 +115,37 @@ const Profile: React.FC = () => {
         addToast({
           // envia os parâmetros do toast
           type: 'error',
-          title: 'Erro no cadastro',
-          description: 'Ocorreu um erro ao fazer o cadastro, tente novamente.',
+          title: 'Erro na atualização',
+          description: 'Ocorreu um erro ao atualizar perfil, tente novamente.',
         });
       }
     },
-    [addToast, history],
+    [addToast, history, updateUser],
+  );
+
+  // evento do react
+  const handleAvatarChange = useCallback(
+    (e: ChangeEvent<HTMLInputElement>) => {
+      // se existir o arquivo do target selecionado
+      if (e.target.files) {
+        // simula o MultiPartFormData pra pegar arquivo e enviar
+        const data = new FormData();
+        // adicionar arquivo
+        data.append('avatar', e.target.files[0]);
+
+        api.patch('/users/avatar', data).then((response) => {
+          updateUser(response.data);
+          // assim q ele atualizar o user
+          addToast({
+            type: 'success',
+            title: 'Avatar atualizado',
+          });
+        });
+
+        console.log(e.target.files[0]);
+      }
+    },
+    [addToast, updateUser],
   );
   console.log(user);
 
@@ -106,9 +169,10 @@ const Profile: React.FC = () => {
         >
           <AvatarInput>
             <img src={user.avatar_url} alt={user.name} />
-            <button type="button">
+            <label htmlFor="avatar">
               <FiCamera />
-            </button>
+              <input type="file" id="avatar" onChange={handleAvatarChange} />
+            </label>
           </AvatarInput>
 
           <h1>Meu perfil</h1>

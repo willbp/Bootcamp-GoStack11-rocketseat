@@ -33,9 +33,7 @@ const Input: React.FC<InputProps> = ({
   ...rest
 }) => {
   // hook que recebe nome do campo e retorna varias propriedades const {fieldName, defaultValue..}
-  const { fieldName, /* defaultValue, */ error, registerField } = useField(
-    name,
-  );
+  const { fieldName, defaultValue, error, registerField } = useField(name);
 
   // ter acesso do input diretamente na DOM para manipulação (focus, setar valor, etc como fosse JS)
   const inputRef = useRef<HTMLInputElement>(null); // diz q useRef armazena a referencia de um input no HTML
@@ -97,6 +95,7 @@ const Input: React.FC<InputProps> = ({
         onFocus={handleInputFocus}
         onBlur={handleInputBlur}
         ref={inputRef}
+        defaultValue={defaultValue}
         {...rest}
       />
 
