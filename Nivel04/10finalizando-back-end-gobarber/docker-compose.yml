@@ -1,0 +1,46 @@
+version: '3'
+#aqui foi criada uma rede dentro do docker chamada API
+#isso serve para que os containers que tiver essa network vinculada converse entre si
+#não é um parâmetro obrigatório
+networks:
+  api:
+    driver: bridge
+
+#nome do serviço é postgresdb
+#imagem que ele usa é o postgres
+#cria um container com nome postgres
+#seta o user como postgres
+#seta a senha como docker
+#cria um banco de dados chamado gostack_desafio06
+#conecta o container à rede api
+#e conecta a porta 5432 da sua máquina à porta 5432 do container
+
+services:
+  postgresdb_gobarber:
+    image: postgres
+    container_name: postgres_gobarber
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=docker
+      - POSTGRES_DB=gostack_gobarber
+    networks:
+      - api
+    ports:
+      - "5432:5432"
+
+  mongodb:
+    image: mongo
+    container_name: mongodb
+    networks:
+      - api
+    ports:
+      - "27017:27017"
+
+
+  redisdb:
+    image: redis:alpine
+    container_name: redis
+    networks:
+      - api
+    ports:
+      - "6379:6379"
