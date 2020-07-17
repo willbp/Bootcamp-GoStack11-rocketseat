@@ -1,6 +1,8 @@
 #ignore everything
 *desafios-nivel01
 *desafio-conceitos-node.zip
+*1typescript
+*criandoprojetocomnode.zip
 #except
 !conceitos-dev/**
 !README.md
