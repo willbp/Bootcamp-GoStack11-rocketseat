@@ -6,6 +6,6 @@ Nessa aula foi desenvolvido uma página simples que trabalha junto com o back-en
 
 Com o projeto rodando, acesse do seu browser http://localhost:8080/
 
-![Imagem](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/blob/master/Nivel01/conceitos-dev/01frontend-reactjs/images/browser_projeto01.gif)
+![Imagem](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/blob/master/Nivel01/01frontend-reactjs/images/browser_projeto01.gif)
 
 Esse projeto cria um novo item em nossa lista do back-end através do botão "Adicionar Projeto".
