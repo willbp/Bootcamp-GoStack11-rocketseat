@@ -68,7 +68,7 @@ As requisições aceitas são:
 
   + O provider_id deve existir para conseguir ter sucesso na requisição. Deve-se enviar os dados no corpo da requisição. Como abaixo:
 
-* Essa rota precisa ser enviada junto com o arquivo do avatar no corpo da requisição e o token de autenticação junto aos parâmetros*
+* Essa rota precisa ser enviada junto com o arquivo do avatar no corpo da requisição e o token de autenticação junto aos parâmetros.
 
 
 - Para Sessions:
