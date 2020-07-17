@@ -81,4 +81,4 @@ Inicialmente, mapeamos as funcionalidades  do sistema, no seguintes funcionalida
 ### Legendas:
 **RF** - Requisitos funcionais
 **RNF** - Requisitos não-funcionais
-**RN** - Regras de negócio
+**RN** - Regras de negócio.
