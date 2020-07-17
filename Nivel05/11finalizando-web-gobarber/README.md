@@ -4,7 +4,11 @@ O **GoBarber** tem como fim gerar uma aplicação, que torne possível a facilit
 
 Este projeto está em fase andamento, será ***Web/Mobile***, terá suporte para ***iOS/Android***.
 
-Nessa aula foi desenvolvido três páginas do nosso aplicativo para nossa aplicação "GoBarber" que trabalha junto com o back-end desenvolvido na aula 09 ([09iniciando-back-end-gobarber-ddd-tdd-rf-rmf-rn](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/tree/master/Nivel04/10finalizando-back-end-gobarber)).:
+Nessa aula foi desenvolvido três páginas do nosso aplicativo para nossa aplicação "GoBarber" que trabalha junto com o back-end desenvolvido na aula 10 ([10finalizando-back-end-gobarber](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/tree/master/Nivel04/10finalizando-back-end-gobarber)).:
+
+Acesse o projeto acima, instale as libs com **yarn** , após **yarn dev:server** para deixar o projeto ativo.
+
+Após Neste projeto da Aula 11 **yarn start** em um terminal diferente.
 
 ## :book: Conhecimento Gerais Utilizados:
 
@@ -37,10 +41,4 @@ Nessa aula foi desenvolvido três páginas do nosso aplicativo para nossa aplica
 - ***Entre outros***;
 
 
-## :alarm_clock: Time to Test
-
-* Para testar eu utilizei o gerenciador de pacotes **Yarn**. Caso você queira testar, deve clonar este projeto, acessá-lo via terminal e dar o comando *yarn*, após deve dar o comando *yarn start*.
-
-
-### :heart_decoration: Obrigado pela visita, volte sempre!
 

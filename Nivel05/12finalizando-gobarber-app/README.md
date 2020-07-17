@@ -2,11 +2,15 @@
 
 Nessa aula foi desenvolvido três páginas do nosso aplicativo para nossa aplicação "GoBarber" que trabalha junto com o back-end desenvolvido na aula 04.
 
-**Para rodar esse projeto você vai precisar do projeto da aula 04 rodando. Instale as libs com o comando **yarn** e rode o projeto em seu celular ou um emulador.
+* Para rodar esse projeto você vai precisar do projeto da aula 04 rodando. Instale as libs com o comando **yarn** e rode o projeto em seu celular ou um emulador.
 
 Ao abrir o aplicativo, você estará na tela de Login, se não houver login, existe a página de cadastro.
 
-Caso tenha um Login já feito, você será direcionado à pagina de Dashboard e será possível agendar horários com os empregados do salão. Este projeto deve ser acessado juntamente com o back-end desenvolvido da aula 09 ([09iniciando-back-end-gobarber-ddd-tdd-rf-rmf-rn](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/tree/master/Nivel04/10finalizando-back-end-gobarber)).:
+Caso tenha um Login já feito, você será direcionado à pagina de Dashboard e será possível agendar horários com os empregados do salão. Este projeto deve ser acessado juntamente com o back-end desenvolvido da aula 10 ([10finalizando-back-end-gobarber](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/tree/master/Nivel04/10finalizando-back-end-gobarber)).:
+
+Acesse o projeto acima, instale as libs com **yarn** , após **yarn dev:server** para deixar o projeto ativo.
+
+Após, neste projeto da Aula 12 **yarn start**, **yarn android**, caso não funcione deve colocar no terminal também **adb reverse tcp:3333 tcp:3333**.
 
 
 ## :book: Conhecimento Gerais Utilizados:
@@ -40,10 +44,5 @@ Caso tenha um Login já feito, você será direcionado à pagina de Dashboard e 
 - ***Entre outros***;
 
 
-## :alarm_clock: Time to Test
 
-Para testar eu utilizei o gerenciador de pacotes **Yarn**. Caso você queira testar, deve clonar este projeto, acessá-lo via terminal e dar o comando *yarn*, após deve dar o comando *yarn start*.
-
-
-### :heart_decoration: Obrigado pela visita, volte sempre!
 

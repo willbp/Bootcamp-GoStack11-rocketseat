@@ -25,3 +25,5 @@ Abaixo você encontra o índice e conteúdo de cada aula:
 
 Espero que o repositório ajude quem precisar!
 Fiquem a vontade para entrar em contato se tiver alguma dúvida ou sugestão.
+
+### :heart_decoration: Obrigado pela visita, volte sempre!
