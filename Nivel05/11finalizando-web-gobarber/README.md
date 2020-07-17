@@ -1,4 +1,4 @@
-# :scissors: Welcome to GoBarber! - Aula 11 React GoBarber
+# :scissors: Welcome to GoBarber! - Aula 11 React GoBarber (Web)
 
 O **GoBarber** tem como fim gerar uma aplicação, que torne possível a facilitação da vida dos cabeleireiros, tendo o perfil do profissional e do cliente. A partir da aplicação os clientes vão poder agendar cortes de cabelo, desmarcar e alterar com seu cabeleireiro favorito.
 

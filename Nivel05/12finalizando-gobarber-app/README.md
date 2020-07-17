@@ -1,4 +1,4 @@
-# Aula 12 - App GoBarber
+# # :scissors: Welcome to GoBarber! - Aula 12 - App GoBarber (Mobile)
 
 Nessa aula foi desenvolvido três páginas do nosso aplicativo para nossa aplicação "GoBarber" que trabalha junto com o back-end desenvolvido na aula 04.
 
@@ -6,7 +6,7 @@ Nessa aula foi desenvolvido três páginas do nosso aplicativo para nossa aplica
 
 Ao abrir o aplicativo, você estará na tela de Login, se não houver login, existe a página de cadastro.
 
-Caso tenha um Login já feito, você será direcionado à pagina de Dashboard e será possível agendar horários com os empregados do salão. Este projeto deve ser acessado juntamente com o back-end desenvolvido da aula 10 ([10finalizando-back-end-gobarber](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/tree/master/Nivel04/10finalizando-back-end-gobarber)).:
+Caso tenha um Login já feito, você será direcionado à pagina de Dashboard e será possível agendar horários com os empregados do salão. Este projeto deve ser acessado juntamente com o back-end desenvolvido da aula 10 ([10finalizando-back-end-gobarber](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/tree/master/Nivel04/10finalizando-back-end-gobarber)).
 
 Acesse o projeto acima, instale as libs com **yarn** , após **yarn dev:server** para deixar o projeto ativo.
 
@@ -15,7 +15,7 @@ Após, neste projeto da Aula 12 **yarn start**, **yarn android**, caso não func
 
 ## :book: Conhecimento Gerais Utilizados:
 
-* [React.JS]([https://pt-br.reactjs.org/](https://pt-br.reactjs.org/))
+* [ReactJS](https://pt-br.reactjs.org/)
 * [Axios](https://github.com/axios/axios)
 * [Styled Components](https://styled-components.com/)
 * [React-Icons](https://react-icons.github.io/react-icons/)
@@ -25,7 +25,7 @@ Após, neste projeto da Aula 12 **yarn start**, **yarn android**, caso não func
 * [UUIDv4](https://github.com/thenativeweb/uuidv4)
 * [Yup](https://github.com/jquense/yup)
 * [React Router DOM](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)
-- ***Entre outros***;
+* ***Entre outros***;
 
 ## Ferramentas auxiliares
 
