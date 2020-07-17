@@ -1,4 +1,4 @@
-# :zero::zero: Aula 00 - Back-end com NodeJS
+# Aula :zero::zero: - Back-end com NodeJS
 
 Nessa aula foi desenvolvido um back-end simples que recebe requisiçes HTTP através do http://localhost:3333/ e salva os dados em um array do próprio código.
 
