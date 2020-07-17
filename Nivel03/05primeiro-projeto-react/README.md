@@ -6,9 +6,9 @@ Nessa aula foi desenvolvido uma página que faz requisição para a API de repos
 
 Com o projeto rodando, acesse do seu browser http://localhost:3000/
 
-![Imagem](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/blob/master/Nivel03/05primeiro-projeto-react/images/browser_aula05.gif?raw=true)
+![Imagem](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/blob/master/Nivel03/05primeiro-projeto-react/images/browser_aula05.gif)
 
 Esse projeto salva os dados no LocalStorage do browser, assim ao atualizar a página ele não perde os dados anteriores. Para acessar o Local Storage entre em "inspeciona", vá na aba "Application" e "Local Storage":
 
-![Imagem](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/blob/master/Nivel03/05primeiro-projeto-react/images/LocalStorage.png?raw=true)
+![Imagem](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/blob/master/Nivel03/05primeiro-projeto-react/images/LocalStorage.png)
 
