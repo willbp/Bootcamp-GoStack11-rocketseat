@@ -1,8 +1,8 @@
-# Aula 00 - Back-end com NodeJS
+# :zero: :zero: Aula 00 - Back-end com NodeJS
 
 Nessa aula foi desenvolvido um back-end simples que recebe requisiçes HTTP através do http://localhost:3333/ e salva os dados em um array do próprio código.
 
-*para rodar esse projeto, instale as libs com o comando **yarn** e rode o projeto com o comando **yarn dev***
+* Para rodar esse projeto, instale as libs com o comando **yarn** e rode o projeto com o comando **yarn dev**
 
 As requisições aceitas são:
 
