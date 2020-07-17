@@ -2,7 +2,7 @@
 
 Nessa aula terminaremos algumas das funcionalidades faltantes, entre elas a listagem do prestador para verificar todos os agendamentos que ele tem por dia. Lembrando dos nossos requisitos:
 
-É a continuação da aula 09 ([09iniciando-back-end-gobarber-ddd-tdd-rf-rmf-rn](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/tree/master/Nivel04/09iniciando-back-end-gobarber-ddd-tdd-rf-rmf-rn)).:
+É a continuação da aula 09 ([09iniciando-back-end-gobarber-ddd-tdd-rf-rmf-rn](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/tree/master/Nivel04/09iniciando-back-end-gobarber-ddd-tdd-rf-rmf-rn)).
 
 ## Recuperação de senha
 
@@ -83,4 +83,4 @@ Nessa aula terminaremos algumas das funcionalidades faltantes, entre elas a list
 ### Legendas:
 **RF** - Requisitos funcionais
 **RNF** - Requisitos não-funcionais
-**RN** - Regras de negócio
+**RN** - Regras de negócio.
