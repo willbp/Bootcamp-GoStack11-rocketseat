@@ -1,4 +1,4 @@
-# Aula 10 - Finalizando Back-end do App
+# :scissors: Welcome to GoBarber! - Aula 10 - Finalizando Back-end do App (Node)
 
 Nessa aula terminaremos algumas das funcionalidades faltantes, entre elas a listagem do prestador para verificar todos os agendamentos que ele tem por dia. Lembrando dos nossos requisitos:
 
