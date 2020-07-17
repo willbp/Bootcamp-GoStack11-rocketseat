@@ -1,5 +1,6 @@
 #ignore everything
-*
+*desafios-nivel01
+*desafio-conceitos-node.zip
 #except
 !conceitos-dev/**
 !README.md
