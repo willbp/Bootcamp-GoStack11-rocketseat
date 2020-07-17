@@ -39,7 +39,7 @@ Nessa aula foi desenvolvido três páginas do nosso aplicativo para nossa aplica
 
 ## :alarm_clock: Time to Test
 
-Para testar eu utilizei o gerenciador de pacotes **Yarn**. Caso você queira testar, deve clonar este projeto, acessá-lo via terminal e dar o comando *yarn*, após deve dar o comando *yarn start*.
+* Para testar eu utilizei o gerenciador de pacotes **Yarn**. Caso você queira testar, deve clonar este projeto, acessá-lo via terminal e dar o comando *yarn*, após deve dar o comando *yarn start*.
 
 
 ### :heart_decoration: Obrigado pela visita, volte sempre!

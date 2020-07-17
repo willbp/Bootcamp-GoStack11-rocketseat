@@ -2,6 +2,8 @@
 
 Nessa aula, voltamos a desenvolver nossa aplicação. Aqui desenvolvemos a algumas páginas da aplicação web do nosso "GoBarber".
 
+* Para executar esse projeto você vai precisar do projeto da [aula 4](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/tree/master/Nivel02/04iniciando-back-end-gobarber) rodando
+
 ![Imagem](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/blob/master/Nivel03/06gobarber-web/images/browser_auls06.gif)
 
 
@@ -28,8 +30,6 @@ Nessa aula, voltamos a desenvolver nossa aplicação. Aqui desenvolvemos a algum
 #### Requisitos
 * Gerenciador de pacotes ([Yarn](https://yarnpkg.com/))
 * [Back-end](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/tree/master/Nivel02/04iniciando-back-end-gobarber)
-
-**Para executar esse projeto você vai precisar do projeto da [aula 4](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/tree/master/Nivel02/04iniciando-back-end-gobarber) rodando*
 
 #### Procedimento
 1. Abra um terminal e navegue até a raíz do projeto.

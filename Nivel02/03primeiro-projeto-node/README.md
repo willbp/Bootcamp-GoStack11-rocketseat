@@ -2,7 +2,7 @@
 
 Nessa aula começamos a desenvolver o back-end para nossa aplicação final que recebe requisiçes HTTP através do http://localhost:3333/ e, por enquanto, salva os dados em um array do próprio código.
 
-*para rodar esse projeto, instale as libs com o comando **yarn** e rode o projeto com o comando **yarn dev:server***
+* Para rodar esse projeto, instale as libs com o comando **yarn** e rode o projeto com o comando **yarn dev:server**
 
 As requisições aceitas são:
 
