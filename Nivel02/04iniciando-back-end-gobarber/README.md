@@ -1,9 +1,9 @@
-# Aula 04 - Iniciando back-end (Inico GoBarber)
+# Aula 04 - Iniciando back-end (Início GoBarber)
 
 Nessa aula foi terminado o desenvolvimento do back-end da aula anterior que recebe requisiçes HTTP através do http://localhost:3333/ e salva os dados em banco de dados Postgres.
-E inicializamos a idealização do projeto do GoBarber
+E inicializamos a idealização do projeto do GoBarber.
 
-* Para rodar esse projeto, você vai precisar estar rodando um banco de dados Postgres com nome "gostack_gobarber", instalar as libs com o comando **yarn** e rodar o projeto com o comando **yarn dev:server**
+* Para rodar esse projeto, você vai precisar estar rodando um banco de dados Postgres com nome "gostack_gobarber", instalar as libs com o comando **yarn** e rodar o projeto com o comando **yarn dev:server**.
 
 **ATENÇÃO** para as requisições de criar e listar agendamentos e atualizar avatar é necessário estar autenticado através da rota 'Sessions" e enviar o token criado junto à requisição!
 
@@ -65,7 +65,7 @@ As requisições aceitas são:
 
   + O provider_id deve existir para conseguir ter sucesso na requisição. Deve-se enviar os dados no corpo da requisição. Como abaixo:
 
-*essa rota precisa ser enviada junto com o arquivo do avatar no corpo da requisição e o token de autenticação junto aos parâmetros*
+*Essa rota precisa ser enviada junto com o arquivo do avatar no corpo da requisição e o token de autenticação junto aos parâmetros*.
 
 
 - Para Sessions:

@@ -2,14 +2,14 @@
 
 Nessa aula, voltamos a desenvolver nossa aplicação. Aqui desenvolvemos a algumas páginas da aplicação web do nosso "GoBarber".
 
-* Para executar esse projeto você vai precisar do projeto da [aula 4](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/tree/master/Nivel02/04iniciando-back-end-gobarber) rodando
+* Para executar esse projeto você vai precisar do projeto da [aula 4](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/tree/master/Nivel02/04iniciando-back-end-gobarber) rodando.
 
 ![Imagem](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/blob/master/Nivel03/06gobarber-web/images/browser_auls06.gif)
 
 
 ## Ferramentas utilizadas no projeto
 
-* [React.JS]([https://pt-br.reactjs.org/](https://pt-br.reactjs.org/))
+* [ReactJS](https://pt-br.reactjs.org/)
 * [Axios](https://github.com/axios/axios)
 * [Styled Components](https://styled-components.com/)
 * [React-Icons](https://react-icons.github.io/react-icons/)
