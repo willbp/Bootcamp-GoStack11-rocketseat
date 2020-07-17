@@ -28,7 +28,7 @@ Nessa aula, voltamos a desenvolver nossa aplicação. Aqui desenvolvemos a algum
 ## Execução do projeto
 
 #### Requisitos
-* Gerenciador de pacotes ([Yarn](https://yarnpkg.com/))
+* [Yarn](https://yarnpkg.com/) (Gerenciador de pacotes)
 * [Back-end](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/tree/master/Nivel02/04iniciando-back-end-gobarber)
 
 #### Procedimento
