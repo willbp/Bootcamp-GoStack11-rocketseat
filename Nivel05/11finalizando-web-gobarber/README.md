@@ -4,15 +4,15 @@ O **GoBarber** tem como fim gerar uma aplicação, que torne possível a facilit
 
 Este projeto está em fase andamento, será ***Web/Mobile***, terá suporte para ***iOS/Android***.
 
-Nessa aula foi desenvolvido três páginas do nosso aplicativo para nossa aplicação "GoBarber" que trabalha junto com o back-end desenvolvido na aula 10 ([10finalizando-back-end-gobarber](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/tree/master/Nivel04/10finalizando-back-end-gobarber)).:
+Nessa aula foi desenvolvido três páginas do nosso aplicativo para nossa aplicação "GoBarber" que trabalha junto com o back-end desenvolvido na aula 10 ([10finalizando-back-end-gobarber](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/tree/master/Nivel04/10finalizando-back-end-gobarber)).
 
 Acesse o projeto acima, instale as libs com **yarn** , após **yarn dev:server** para deixar o projeto ativo.
 
-Após Neste projeto da Aula 11 **yarn start** em um terminal diferente.
+Após, neste projeto da Aula 11 **yarn start** em um terminal diferente.
 
 ## :book: Conhecimento Gerais Utilizados:
 
-* [React.JS]([https://pt-br.reactjs.org/](https://pt-br.reactjs.org/))
+* [ReactJS](https://pt-br.reactjs.org/)
 * [Axios](https://github.com/axios/axios)
 * [Styled Components](https://styled-components.com/)
 * [React-Icons](https://react-icons.github.io/react-icons/)
@@ -22,7 +22,7 @@ Após Neste projeto da Aula 11 **yarn start** em um terminal diferente.
 * [UUIDv4](https://github.com/thenativeweb/uuidv4)
 * [Yup](https://github.com/jquense/yup)
 * [React Router DOM](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)
-- ***Entre outros***;
+* ***Entre outros***;
 
 ## Ferramentas auxiliares
 
