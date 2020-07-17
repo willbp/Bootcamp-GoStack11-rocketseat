@@ -1,6 +1,6 @@
 # Aula 09 - Continuando Back-end do App
 
-Inicialmente, mapeamos as funcionalidades  do sistema, no seguintes funcionalidades macro e suas subfuncionalidades (micro) e estendemos a aula 08 ([08iniciando-back-end-gobarber-ddd-tdd](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/tree/master/Nivel04/08iniciando-back-end-gobarber-ddd-tdd)).:
+Inicialmente, mapeamos as funcionalidades  do sistema, no seguintes funcionalidades macro e suas subfuncionalidades (micro) e estendemos a aula 08 ([08iniciando-back-end-gobarber-ddd-tdd](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/tree/master/Nivel04/08iniciando-back-end-gobarber-ddd-tdd)).
 
 ## Recuperação de senha
 
