@@ -1,4 +1,4 @@
-# # :scissors: Welcome to GoBarber! - Aula 12 - App GoBarber (Mobile)
+# :scissors: Welcome to GoBarber! - Aula 12 - App GoBarber (Mobile)
 
 Nessa aula foi desenvolvido três páginas do nosso aplicativo para nossa aplicação "GoBarber" que trabalha junto com o back-end desenvolvido na aula 04.
 
