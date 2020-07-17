@@ -9,9 +9,9 @@ Abaixo você encontra o índice e conteúdo de cada aula:
 
 | Níveis | Índice | README |
 | ------ | ------ | ------ |
-| Nivel01 | 00 | [Back-end com Node.js](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/tree/master/Nivel01/conceitos-dev/00backend-nodejs) |
-| Nivel01 | 01 | [Front-end com ReactJS](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/tree/master/Nivel01/conceitos-dev/01frontend-reactjs) |
-| Nivel01 | 02 | [Mobile com React Native](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/tree/master/Nivel01/conceitos-dev/02mobile-react-native) |
+| Nivel01 | 00 | [Back-end com Node.js](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/tree/master/Nivel01/00backend-nodejs) |
+| Nivel01 | 01 | [Front-end com ReactJS](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/tree/master/Nivel01/01frontend-reactjs) |
+| Nivel01 | 02 | [Mobile com React Native](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/tree/master/Nivel01/02mobile-react-native) |
 | Nivel02 | 03 | [Primeiro projeto com Node.JS](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/tree/master/Nivel02/03primeiro-projeto-node) |
 | Nivel02 | 04 | [Iniciando back-end do app](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/tree/master/Nivel02/04iniciando-back-end-gobarber) |
 | Nivel03 | 05 | [Primeiro projeto com React](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/tree/master/Nivel03/05primeiro-projeto-react) |
