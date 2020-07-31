@@ -2,7 +2,9 @@
 
 O **GoBarber** tem como fim gerar uma aplicação, que torne possível a facilitação da vida dos cabeleireiros, tendo o perfil do profissional e do cliente. A partir da aplicação os clientes vão poder agendar cortes de cabelo, desmarcar e alterar com seu cabeleireiro favorito.
 
-Este projeto está em fase andamento, será ***Web/Mobile***, terá suporte para ***iOS/Android***.
+Este projeto está em fase final, será ***Web/Mobile***, terá suporte para ***iOS/Android***.
+
+![Imagem](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/blob/master/Nivel05/12finalizando-gobarber-app/images/web.gif)
 
 Nessa aula foi desenvolvido três páginas do nosso aplicativo para nossa aplicação "GoBarber" que trabalha junto com o back-end desenvolvido na aula 10 ([10finalizando-back-end-gobarber](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/tree/master/Nivel04/10finalizando-back-end-gobarber)).
 

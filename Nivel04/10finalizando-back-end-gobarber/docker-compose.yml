@@ -18,7 +18,7 @@ networks:
 services:
   postgresdb_gobarber:
     image: postgres
-    container_name: postgres_gobarber
+    container_name: postgres_gobarber_vfinal
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=docker

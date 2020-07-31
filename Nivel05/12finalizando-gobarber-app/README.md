@@ -12,6 +12,8 @@ Acesse o projeto acima, instale as libs com **yarn** , após **yarn dev:server**
 
 Após, neste projeto da Aula 12 **yarn start**, **yarn android**, caso não funcione deve colocar no terminal também **adb reverse tcp:3333 tcp:3333**.
 
+![Imagem](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/blob/master/Nivel05/12finalizando-gobarber-app/images/app.gif)
+
 
 ## :book: Conhecimento Gerais Utilizados:
 
