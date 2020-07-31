@@ -4,7 +4,7 @@ O **GoBarber** tem como fim gerar uma aplicação, que torne possível a facilit
 
 Este projeto está em fase final, será ***Web/Mobile***, terá suporte para ***iOS/Android***.
 
-![Imagem](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/blob/master/Nivel05/12finalizando-gobarber-app/images/web.gif)
+![Imagem](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/blob/master/Nivel05/11finalizando-web-gobarber/images/web.gif)
 
 Nessa aula foi desenvolvido três páginas do nosso aplicativo para nossa aplicação "GoBarber" que trabalha junto com o back-end desenvolvido na aula 10 ([10finalizando-back-end-gobarber](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/tree/master/Nivel04/10finalizando-back-end-gobarber)).
 

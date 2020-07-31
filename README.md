@@ -22,6 +22,8 @@ Abaixo você encontra o índice e conteúdo de cada aula:
 | Nivel04 | 10 | [Finalizando back-end do app](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/tree/master/Nivel04/10finalizando-back-end-gobarber) |
 | Nivel05 | 11 | [Finalizando front-end web do app](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/tree/master/Nivel05/11finalizando-web-gobarber) |
 | Nivel05 | 12 | [Finalizando aplicativo mobile](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/tree/master/Nivel05/12finalizando-gobarber-app) |
+| Nivel05 | 13 | [Testes no ReactJS](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/tree/master/Nivel05/13finalizando-web-gobarber-CTestes) |
+| Nivel05 | 14 | [Testes no React Native](https://github.com/willbp/Bootcamp-GoStack11-rocketseat/tree/master/Nivel05/14finalizando-gobarber-app-CTestes) |
 
 Espero que o repositório ajude quem precisar!
 Fiquem a vontade para entrar em contato se tiver alguma dúvida ou sugestão.
